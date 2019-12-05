@@ -1,0 +1,444 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .main__menu_header,
+    .main__menu_header nav,
+    .main__menu_content,
+    .main__portfolio_info,
+    .main__clients_info,
+    .main-block_info {
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main__menu {
+        width: 100%;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 919px) and (max-width: 1000px) {
+
+    .main__menu_header,
+    .main__menu_header nav,
+    .main__menu_content,
+    .main__portfolio_info,
+    .main__clients_info,
+    .main-block_info,
+    .main__contacts_form {
+        width: 100%;
+    }
+
+    .input-one,
+    .input-second,
+    .input-third,
+    .input-textarea {
+        width: 90%;
+        margin: 0 auto 10px auto;
+    }
+    input[type="submit"] {
+        display: block;
+        width: 90%;
+        margin: 10px auto 10px auto;
+   }
+    .second-input {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main__menu {
+        width: 100%;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 701px) and (max-width: 920px) {
+
+    .main__menu_header,
+    .main__menu_header nav,
+    .main__menu_content,
+    .main__portfolio_info,
+    .main__clients_info,
+    .main-block_info,
+    .main__contacts_form {
+        width: 100%;
+    }
+
+    .input-one,
+    .input-second,
+    .input-third,
+    .input-textarea {
+        width: 90%;
+        margin: 0 auto 10px auto;
+    }
+   input[type="submit"] {
+        display: block;
+        width: 90%;
+        margin: 10px auto 10px auto;
+   }
+    .second-input {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main__clients_info ul {
+        margin-left: 20px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main__menu {
+        width: 100%;
+    }
+
+    .number-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__menu_content {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+
+    .portfolio_gallery {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .slicknav_menu {
+        display: block;
+        background: #89898b
+    }
+
+    .slicknav_nav a {
+        color: #465a64;
+    }
+
+    .slicknav_nav a:hover {
+        background: #ffe600;
+    }
+
+    .main__menu_header nav ul {
+        display: none;
+    }
+     .main__menu_header nav {
+        display: flex;
+        justify-content: center;
+     }
+    .header-wrap__header {
+        padding-top: 50px;
+    }
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 700px) {
+
+    .main__menu_header,
+    .main__menu_header nav,
+    .main__menu_content,
+    .main__portfolio_info,
+    .main__clients_info,
+    .main-block_info,
+    .main__contacts_form {
+        width: 100%;
+    }
+
+    .input-one,
+    .input-second,
+    .input-third,
+    .input-textarea {
+        width: 90%;
+        margin: 0 auto 10px auto;
+    }
+    input[type="submit"] {
+        display: block;
+        width: 90%;
+        margin: 10px auto 10px auto;
+   }
+    .second-input {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main__clients_info ul {
+        margin-left: 20px;
+    }
+
+    .main__menu_header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: space-around;
+    }
+
+    .main__menu_header nav ul li {
+        margin: 10px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main__menu {
+        width: 100%;
+    }
+
+    .number-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__menu_content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+
+    .portfolio_gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer-wrapper {
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .footer span {
+        display: block;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer ul li {
+        margin: 10px;
+    }
+
+    .slicknav_menu {
+        display: block;
+        background: #89898b
+    }
+
+    .slicknav_nav a {
+        color: #465a64;
+    }
+
+    .slicknav_nav a:hover {
+        background: #ffe600;
+    }
+
+     .main__menu_header nav ul {
+        display: none;
+    }
+     .main__menu_header nav {
+        display: flex;
+        justify-content: center;
+     }
+
+    .header-wrap__header span p {
+        font-size: 25px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header-wrap__header {
+        padding-top: 50px;
+    }
+
+}
+
+@media (max-width: 590px) {
+
+    .main__menu_header,
+    .main__menu_header nav,
+    .main__menu_content,
+    .main__portfolio_info,
+    .main__clients_info,
+    .main-block_info,
+    .main__contacts_form {
+        width: 100%;
+    }
+
+    .input-one,
+    .input-second,
+    .input-third,
+    .input-textarea {
+        width: 90%;
+        margin: 0 auto 10px auto;
+    }
+    input[type="submit"] {
+        display: block;
+        width: 90%;
+        margin: 10px auto 10px auto;
+   }
+    .second-input {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header-wrap__header {
+        padding-top: 50px;
+    }
+
+    .main__menu_header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: space-around;
+    }
+
+    .main__menu_header nav ul li {
+        margin: 10px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main__menu {
+        width: 100%;
+    }
+
+    .number-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__menu_content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+
+    .portfolio_gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer-wrapper {
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+        align-items: center;
+
+    }
+
+    .footer span {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer ul li {
+        margin: 10px;
+    }
+
+    .slicknav_menu {
+        display: block;
+        background: #89898b
+    }
+
+    .slicknav_nav a {
+        color: #465a64;
+    }
+
+    .slicknav_nav a:hover {
+        background: #ffe600;
+    }
+
+     .main__menu_header nav ul {
+        display: none;
+    }
+     .main__menu_header nav {
+        display: flex;
+        justify-content: center;
+     }
+
+    .header-wrap__header span p {
+        font-size: 25px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main__clients_info {
+        height: auto;
+    }
+
+    .main__clients_info ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 10px 0 0 0;
+    }
+
+    .main__clients_info ul li {
+        margin: 10px;
+    }
+
+    .main-block_info h2 {
+        font-size: 20px;
+    }
+
+}
